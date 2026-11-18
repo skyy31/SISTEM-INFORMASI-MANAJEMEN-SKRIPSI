@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nim_nip": "105022010001",
+      "password": "123",
+      "nama": "Budi Santoso",
+      "role": "mahasiswa",
+      "prodi": "Informatika"
+    },
+    {
+      "id": "2",
+      "nim_nip": "105022010002",
+      "password": "123",
+      "nama": "Ani Pratiwi",
+      "role": "mahasiswa",
+      "prodi": "Sistem Informasi"
+    },
+    {
+      "id": "3",
+      "nim_nip": "105022010003",
+      "password": "123",
+      "nama": "Dewanta Putra",
+      "role": "mahasiswa",
+      "prodi": "Teknologi Informasi"
+    },
+    {
+      "id": "4",
+      "nim_nip": "198501012015",
+      "password": "123",
+      "nama": "Dr. Andi Wijaya, M.Kom",
+      "role": "dosen",
+      "prodi": "Informatika"
+    },
+    {
+      "id": "5",
+      "nim_nip": "198805122018",
+      "password": "123",
+      "nama": "Siti Rahmawati, M.Kom",
+      "role": "dosen",
+      "prodi": "Sistem Informasi"
+    },
+    {
+      "id": "6",
+      "nim_nip": "198805122019",
+      "password": "123",
+      "nama": "David Pratama, M.Kom",
+      "role": "dosen",
+      "prodi": "Teknologi Informasi"
+    },
+    {
+      "id": "7",
+      "nim_nip": "admin",
+      "password": "123",
+      "nama": "Admin Akademik",
+      "role": "admin",
+      "prodi": "Fakultas Ilmu Komputer"
+    }
+  ],
+  "pengajuanJudul": [
+    {
+      "id": "1",
+      "userId": "1",
+      "namaMahasiswa": "Budi Santoso",
+      "nim": "105022010001",
+      "judul": "Sistem Informasi Manajemen Skripsi Berbasis Mobile",
+      "deskripsi": "Aplikasi monitoring pengajuan judul, bimbingan, dan jadwal sidang.",
+      "dosenId": "2",
+      "namaDosen": "Dr. Andi Wijaya, M.Kom",
+      "status": "Diterima",
+      "catatanDosen": ""
+    },
+    {
+      "userId": "2",
+      "namaMahasiswa": "Ani Pratiwi",
+      "nim": "105022010002",
+      "judul": "Pengaruh AI",
+      "deskripsi": "Latar Belakang",
+      "dosenId": "4",
+      "namaDosen": "Siti Rahmawati, M.Kom",
+      "status": "Ditolak",
+      "catatanDosen": "",
+      "id": "MQW3W2v"
+    },
+    {
+      "userId": "3",
+      "namaMahasiswa": "Dewanta Putra",
+      "nim": "105022010003",
+      "judul": "IoT",
+      "deskripsi": "...",
+      "dosenId": "6",
+      "namaDosen": "David Pratama, M.Kom",
+      "status": "Diterima",
+      "catatanDosen": "",
+      "id": "RzqfiYJ"
+    }
+  ],
+  "logbookBimbingan": [
+    {
+      "userId": "3",
+      "namaMahasiswa": "Dewanta Putra",
+      "dosenId": "6",
+      "namaDosen": "David Pratama, M.Kom",
+      "tanggal": "2026-11-18",
+      "bab": "BAB 1",
+      "catatanMahasiswa": "...",
+      "catatanDosen": "Sudah diperiksa.",
+      "status": "ACC Bimbingan",
+      "id": 1
+    },
+    {
+      "userId": "3",
+      "namaMahasiswa": "Dewanta Putra",
+      "dosenId": "6",
+      "namaDosen": "David Pratama, M.Kom",
+      "tanggal": "2026-11-18",
+      "bab": "Bab 1",
+      "catatanMahasiswa": "..",
+      "catatanDosen": "Sudah diperiksa.",
+      "status": "ACC Bimbingan",
+      "id": 2
+    }
+  ],
+  "jadwalSidang": [
+    {
+      "userId": "1",
+      "namaMahasiswa": "Budi Santoso",
+      "nim": "105022010001",
+      "judul": "Sistem Informasi Manajemen Skripsi Berbasis Mobile",
+      "dosenId": "2",
+      "namaDosen": "Dr. Andi Wijaya, M.Kom",
+      "jenisSidang": "Seminar Proposal",
+      "tanggal": "2026-11-25",
+      "jam": "09:00-11:00 WITA",
+      "ruangan": "GK 1. 303",
+      "status": "Terjadwal",
+      "id": 1
+    },
+    {
+      "userId": "3",
+      "namaMahasiswa": "Dewanta Putra",
+      "nim": "105022010003",
+      "judul": "IoT",
+      "dosenId": "6",
+      "namaDosen": "David Pratama, M.Kom",
+      "jenisSidang": "Seminar Proposal",
+      "tanggal": "01-01-2026",
+      "jam": "09.00 wita",
+      "ruangan": "Gk1 106",
+      "status": "Terjadwal",
+      "id": 2
+    }
+  ]
+}
